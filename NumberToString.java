@@ -5,7 +5,7 @@ public class NumberToString {
 
 	public static void main(String[] args) {
 		Double d = new Double("1.1235");
-		System.out.println(d);
+		//System.out.println(d);
 		DecimalFormat df = new DecimalFormat("#.###");
 		String strNum = df.format(d);
 		System.out.println(strNum);
